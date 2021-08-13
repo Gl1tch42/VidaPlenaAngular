@@ -4,7 +4,7 @@
   </div>
   <div class="nav">
   <a style="text-decoration:none;" routerLink="/home">Home</a>
-  <a *ngIf="isHome" (click)="onClick()">Projeto</a>
+  <a style="cursor: pointer;" *ngIf="isHome" (click)="scroll()">Projeto</a>
   <a style="text-decoration:none;" routerLink="/livro">Livro</a>
   <a style="text-decoration:none;" routerLink="/login">Curso</a>
   </div>

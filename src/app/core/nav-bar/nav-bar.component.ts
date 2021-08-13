@@ -9,22 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class NavBarComponent implements OnInit {
 
   @Input() isHome: boolean;
-  scrool: HTMLElement;
 
   constructor() { }
 
-  onClick() {
-    console.log(this.scrool);
-    this.scrool.scrollTo({
-      behavior: 'smooth'
-    })
-    // this.scrool.scrollTo({ 
-    //   behavior: 'smooth'
-    // });
+  scroll() {
+    let el: HTMLElement = document.querySelector('#section-2')
+    el.scrollIntoView({behavior: 'smooth'});
   }
 
   ngOnInit() {
-    this.scrool = document.querySelector('#section-2');
   }
 
 }
