@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vida-plena"
+    }
+  },
+  "defaultProject": "vida-plena",
+  "cli": {
+    "analytics": "ad8c63ea-f5aa-4d6c-a2b5-4059d90b864e"
+  }
 }

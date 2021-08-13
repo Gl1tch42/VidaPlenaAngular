@@ -1,0 +1,70 @@
+<!-- <header>
+    <div class="logo">
+        <a routerLink=""><img src="./../../../assets/avatar.png" title="Logo da Empresa" class="logo"></a>
+    </div>
+    <div class="nav">
+        <a style="text-decoration:none;" routerLink="/home">Home</a>
+        <a style="cursor: pointer; text-decoration:none;" (click)="onClick()">Projeto</a>
+        <a style="text-decoration:none;" routerLink="/livro">Livro</a>
+        <a style="text-decoration:none;" routerLink="/login">Curso</a>
+    </div>
+</header> -->
+
+<app-nav-bar [isHome]="true"></app-nav-bar>
+
+<main>
+
+    <div class="section-1">
+        <div class="section-1-title">
+            <h1>Projeto Vida Plena</h1>
+            <img src="./../../assets/avatar.png" title="Logo da Empresa" class="logo">
+            <a href="https://www.allprinteditora.com.br/quem-sou"><button>Garanta o nosso
+                    livro</button></a>
+        </div>
+
+
+        <div class="section-1-img">
+            <img src="./../../assets/meditation.svg">
+        </div>
+    </div>
+
+    <div id="section-2"></div>
+    <div class="section-2">
+        <div class="section-2-img">
+            <img src="./../../assets/image-texto.svg">
+        </div>
+
+        <div class="section-2-text">
+            <h2>O que é o projeto?</h2>
+            <p>Estamos vivendo um tempo de muita complexidade com grandes dificuldades e
+                temores. Essa situação leva a maior parte das pessoas a perderem a esperança num
+                futuro melhor e, pior ainda, de poderem ter uma vida de paz, alegrias e, até,
+                felicidade. A esperança é a mola propulsora para se viver cada dia de forma
+                motivada no objetivo de atingir uma vida melhor. Contudo, como ter esperança num
+                futuro feliz diante de tantas mazelas, catástrofe, pandemia e tantos terrores
+                que constatamos quase que diariamente? Posso garantir a você que é aprendendo a
+                conquistar uma VIDA PLENA. O PROJETO VIDA PLENA tem o poder de treinar cada
+                criatura de Deus para conquistar uma VIDA PLENA. Se você se envolver de corpo,
+                alma e espírito nesse projeto prepare-se para atingir a vida plena e conseqüente
+                felicidade que Deus pode e quer lhe proporcionar
+            </p>
+        </div>
+    </div>
+
+    <div class="section-3">
+        <div class="section-3-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/08R2ah16Wy8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="section-3-img">
+            <img src="./../../assets/image-video.svg">
+        </div>
+    </div>
+
+</main>
+
+
+<app-float></app-float>

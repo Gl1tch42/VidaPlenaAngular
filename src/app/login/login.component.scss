@@ -1,0 +1,113 @@
+main {
+    display: flex;
+    background:linear-gradient(180deg, #2093BF 0%, rgba(234, 234, 234, 0) 100%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 98vh;
+}
+
+main>section {
+    background-color: #FFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 90%;
+    border-radius: 8px;
+    height:80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.container .container-1 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0 30px;
+}
+
+.container .container-1-title {
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .container-1-title img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+
+.container .container-1-title h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .container-1 form {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .container-1 form label {
+    font-weight:400;
+    font-size: 1.2rem;
+}
+
+.container .container-1 form input {
+    padding: 12px 28px;
+    outline: none;
+    width: 330px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.678);
+    background: transparent;
+    margin: 12px 0;
+}
+
+#username {
+    background: url('/images/user.png')no-repeat;
+    background-position: 6px 10px;
+}
+#pass {
+    background:url("/images/lock.png")no-repeat;
+    background-position: 6px 10px;
+}
+
+button {
+    padding: 12px 140px;
+    text-transform: uppercase;
+    font-size: .775rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: #2093BF;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 210px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000;
+}
+
+.container .container-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container-2 img {
+    width: 700px;
+}
