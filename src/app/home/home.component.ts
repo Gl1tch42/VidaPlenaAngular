@@ -9,20 +9,7 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  scrool: HTMLElement;
-
-  onClick() {
-    console.log(this.scrool);
-    this.scrool.scrollTo({
-      behavior: 'smooth'
-    })
-    // this.scrool.scrollTo({ 
-    //   behavior: 'smooth'
-    // });
-  }
-
   ngOnInit() {
-    this.scrool = document.querySelector('#section-2');
   }
 
 }

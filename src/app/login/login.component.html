@@ -7,11 +7,11 @@
                 <h2>Painel de Curso</h2>
                 <form [formGroup]="form">
                     <label for="username">E-mail</label>
-                    <input type="text" id="username" name="username" formControlName="fcEmail" placeholder="you@example.com">
+                    <input type="text" class="username" name="username" formControlName="fcEmail" placeholder="you@example.com">
                     <label for="pass">Senha</label>
-                    <input type="password" id="pass" name="password" formControlName="fcPassword" placeholder="Digite sua senha">
+                    <input type="password" class="pass" name="password" formControlName="fcPassword" placeholder="Digite sua senha">
                 </form>
-                <button type="submit" (click)="login()" class="button">Entrar</button>
+                <button type="submit" [disabled]="form.invalid" (click)="login()" class="button">Entrar</button>
             </div>
 
         </div>

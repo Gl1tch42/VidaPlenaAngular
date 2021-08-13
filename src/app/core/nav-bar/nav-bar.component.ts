@@ -13,7 +13,7 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   scroll() {
-    let el: HTMLElement = document.querySelector('#section-2')
+    let el: HTMLElement = document.querySelector('.section-2')
     el.scrollIntoView({behavior: 'smooth'});
   }
 

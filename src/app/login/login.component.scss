@@ -74,12 +74,13 @@ main>section {
     margin: 12px 0;
 }
 
-#username {
-    background: url('/images/user.png')no-repeat;
+.username {
+    background: url('./../../assets/user.png')no-repeat;
     background-position: 6px 10px;
 }
-#pass {
-    background:url("/images/lock.png")no-repeat;
+
+.pass {
+    background:url("./../../assets/lock.png")no-repeat;
     background-position: 6px 10px;
 }
 
@@ -99,6 +100,11 @@ button {
 
 button:hover {
     background: #000;
+}
+
+button:disabled,
+button[disabled]{
+    background: #b4afaf;
 }
 
 .container .container-2 {
